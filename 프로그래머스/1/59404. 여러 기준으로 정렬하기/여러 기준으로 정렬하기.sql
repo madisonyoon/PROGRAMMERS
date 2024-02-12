@@ -1,0 +1,4 @@
+-- 모든 동물 아이디, 이름, 보호 시작일 / 이름 순, 보호 나중에 시작한 순
+SELECT ANIMAL_ID, NAME, DATETIME
+FROM ANIMAL_INS
+ORDER BY NAME, DATETIME DESC
